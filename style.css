@@ -275,3 +275,15 @@ button:hover {
   font-size: var(--fs-regular);
   margin-left: 16px;
 }
+/* Main > Photos */
+.photos {
+  padding: 64px 0;
+}
+.gallery {
+	margin: 12px 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  grid-template-rows: masonry;
+  grid-gap: 18px;
+  align-items: stretch;
+}
