@@ -98,3 +98,39 @@ button,
 a {
   outline: none;
 }
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background: var(--primary-200);
+}
+header img {
+  max-height: 134px;
+}
+header a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+}
+header i::before {
+  font-size: var(--fs-x-large);
+}
+header span {
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+}
+header span {
+  padding: 12px 0;
+}
+header a:hover,
+header .active {
+  background: var(--primary-100);
+}
+header .active:hover {
+  background: var(--neutral-300);
+  color: var(--primary-100);
+}
