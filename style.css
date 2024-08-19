@@ -148,8 +148,8 @@ header .active:hover {
   padding: 32px 0;
 }
 h1 {
-	font-size: var(--fs-jumbo);
-	margin: 10px 0;
+  font-size: var(--fs-jumbo);
+  margin: 10px 0;
 }
 .banner p {
   margin: 15px 0;
@@ -159,11 +159,11 @@ h1 {
   padding: 64px 0;
 }
 h2 {
-	font-size: var(--fs-x-large);
-	padding: 0 4rem 20px 0;
-	margin: 12px 0;
-	border-bottom: 1px solid var(--neutral-400);
-	display: inline-block;
+  font-size: var(--fs-x-large);
+  padding: 0 4rem 20px 0;
+  margin: 12px 0;
+  border-bottom: 1px solid var(--neutral-400);
+  display: inline-block;
 }
 .about p {
   margin: 15px 0;
@@ -183,7 +183,7 @@ h3 {
   margin: 15px 0;
 }
 .progress-bar {
-  background: var(--neutral-100)
+  background: var(--neutral-100);
 }
 .progress {
   display: block;
@@ -222,13 +222,13 @@ button:hover {
   text-align: center;
 }
 .pricing > ul > li {
-	background: var(--neutral-200);
-	opacity: .6;
+  background: var(--neutral-200);
+  opacity: 0.6;
   transition: var(--transition-ease);
   margin-bottom: 16px;
 }
 .pricing > ul > li:hover {
-	opacity: 1;
+  opacity: 1;
 }
 .pricing h4 {
   font-size: var(--fs-large);
@@ -280,10 +280,55 @@ button:hover {
   padding: 64px 0;
 }
 .gallery {
-	margin: 12px 0;
+  margin: 12px 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(280px, 1fr));
   grid-template-rows: masonry;
   grid-gap: 18px;
   align-items: stretch;
+}
+/* Main > Contact Styles */
+.contact {
+  padding: 64px 0;
+}
+.contact-details {
+  padding-bottom: 24px;
+}
+.contact-details address,
+.contact-details a {
+  color: var(--primary-300);
+  display: flex;
+  align-items: flex-end;
+  margin: 15px 0;
+}
+.contact-details a:hover {
+  color: var(--neutral-100);
+}
+.contact-details i::before {
+  color: var(--neutral-100);
+  font-size: var(--fs-xx-large);
+  margin-right: 24px;
+}
+.contact-details i {
+  min-width: 60px;
+  text-align: center;
+}
+.contact > p {
+  color: var(--primary-300);
+  margin: 15px 0;
+}
+.form-control {
+  margin: 15px 0;
+}
+.form-control button {
+  margin: 0;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 16px 8px;
+  border: none;
+}
+input:focus {
+  border: 1px solid var(--neutral-400);
 }
