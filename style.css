@@ -134,3 +134,22 @@ header .active:hover {
   background: var(--neutral-300);
   color: var(--primary-100);
 }
+/* Main > Container Styles */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 12px 0 12px 120px;
+  box-sizing: content-box;
+}
+/* Main > Banner Styles */
+.banner {
+  text-align: center;
+  padding: 32px 0;
+}
+h1 {
+	font-size: var(--fs-jumbo);
+	margin: 10px 0;
+}
+.banner p {
+  margin: 15px 0;
+}
