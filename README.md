@@ -1,4 +1,4 @@
-# Portfolio Website Template
+# W3.CSS Dark and Light Theme Portfolio Website Template | Clone
 
 This repository contains a clone of W3CSS Dark Portfolio Template. It includes the HTML and CSS for a responsive and browser theme (light and dark thene) based portfolio website template. Designed for photographers and web designers, this template provides a clean and modern layout for showcasing your work and connecting with potential clients.
 
