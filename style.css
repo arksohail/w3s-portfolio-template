@@ -367,3 +367,48 @@ footer p a {
 footer p a:hover {
   color: var(--accent);
 }
+@media only screen and (max-width: 600px) {
+  /* Header Styles */
+  header {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    opacity: 0.6;
+  }
+  header figure,
+  header i.fa {
+    display: none;
+  }
+  header ul {
+    display: flex;
+  }
+  header ul li {
+    flex: 0 1 25%;
+  }
+  header a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: var(--primary-100);
+    padding: 8px 0;
+  }
+  header a:hover,
+  header .active {
+    color: var(--primary-100);
+    background: var(--neutral-300);
+  }
+  header span {
+    padding: 0;
+  }
+  /* Container Styles */
+  .container {
+    padding: 12px 24px;
+  }
+  /* Main */
+  .achievement-list,
+  .pricing > ul,
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
