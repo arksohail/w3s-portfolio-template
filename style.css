@@ -13,6 +13,7 @@
   --primary-200: #222;
   --primary-300: #757575;
   --primary-400: #616161;
+  --accent: #4caf50;
 
   /* Font Family */
   --ff-base: "Montserrat", sans-serif;
@@ -139,7 +140,7 @@ header .active:hover {
 .container {
   max-width: 980px;
   margin: 0 auto;
-  padding: 12px 0 12px 120px;
+  padding: 12px 24px 12px 144px;
   box-sizing: content-box;
 }
 /* Main > Banner Styles */
@@ -204,6 +205,7 @@ h3 {
 }
 .achievement-list p span {
   display: block;
+  font-size: var(--fs-large);
 }
 button {
   border: 1px solid transparent;
@@ -282,7 +284,7 @@ button:hover {
 .gallery {
   margin: 12px 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: masonry;
   grid-gap: 18px;
   align-items: stretch;
@@ -331,4 +333,37 @@ input {
 }
 input:focus {
   border: 1px solid var(--neutral-400);
+}
+/* Footer */
+footer {
+  padding: 64px 0;
+}
+.social-media-list {
+  display: flex;
+  align-items: center;
+}
+.social-media-list i::before {
+  font-size: var(--fs-large);
+}
+.social-media-list i {
+  margin-right: 6px;
+}
+.social-media-list li:last-child i {
+  margin-right: 0;
+}
+.social-media-list li a:hover {
+  opacity: 0.6;
+}
+footer p {
+  color: var(--primary-300);
+  margin: 15px 0;
+}
+footer a {
+  color: var(--primary-300);
+}
+footer p a {
+  border-bottom: 1px solid;
+}
+footer p a:hover {
+  color: var(--accent);
 }
