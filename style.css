@@ -1,0 +1,100 @@
+/* Google Font Robot Import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap");
+/* FontAwesomke Icon Import */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/* CSS Variables */
+:root {
+  /* Colors */
+  --neutral-100: #fff;
+  --neutral-200: #f1f1f1;
+  --neutral-300: #ccc;
+  --neutral-400: #eee;
+  --primary-100: #000;
+  --primary-200: #222;
+  --primary-300: #757575;
+  --primary-400: #616161;
+
+  /* Font Family */
+  --ff-base: "Montserrat", sans-serif;
+
+  /* Font Size */
+  --fs-base: 15px;
+  --fs-small: 0.8rem;
+  --fs-regular: 1rem;
+  --fs-medium: 1.2rem;
+  --fs-large: 1.6rem;
+  --fs-x-large: 2rem;
+  --fs-x-large: 2.4rem;
+  --fs-jumbo: 4.267rem;
+
+  /* Font Weight */
+  --fw-reg: 400;
+
+  /* Line-Height */
+  --lh-base: 1.5;
+
+  /* Transition */
+  --transition-ease: 0.2s ease;
+}
+/* CSS Reset by Kevin Powell */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+/* dark mode user-agent-styles */
+html {
+  color-scheme: dark light;
+}
+/* min body height */
+body {
+  min-height: 100vh;
+  background: var(--primary-100);
+  color: var(--neutral-100);
+}
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+/* Common Style */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address {
+  font-family: var(--ff-base);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-reg);
+  line-height: var(--lh-base);
+  color: var(--neutral-100);
+  transition: var(--transition-ease);
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+input,
+button,
+a {
+  outline: none;
+}
