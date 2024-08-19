@@ -412,3 +412,31 @@ footer p a:hover {
     grid-template-columns: 1fr;
   }
 }
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Colors */
+    --primary-100: #fff;
+    --primary-200: #eee;
+    --primary-300: #757575;
+    --primary-400: #f1f1f1;
+    --neutral-100: #000;
+    --neutral-200: #222;
+    --neutral-300: #757575;
+    --neutral-400: #616161;
+  }
+  .progress-bar {
+    background: var(--primary-400);
+  }
+  .progress {
+    display: block;
+    height: 28px;
+    width: var(--progress);
+    background: var(--neutral-100);
+  }
+  input {
+    border: 1px solid ;
+  }
+  input:focus {
+    border: 1px solid var(--primary-300);
+  }
+}
